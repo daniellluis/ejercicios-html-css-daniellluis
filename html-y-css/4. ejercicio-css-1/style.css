@@ -1,0 +1,48 @@
+/* lista 1 */
+
+.blue {
+  background-color: rgba(0, 0, 255, 0.911);
+}
+
+.lista li:nth-child(odd) {
+  text-decoration: underline;
+  text-decoration-color: green;
+}
+.lista li {
+  display: inline-block;
+  margin: 10px;
+  padding: 0px;
+}
+
+.lista li:nth-child(1)::after {
+  content: "📕 ";
+}
+.lista li:nth-child(2)::after {
+  content: "📒 ";
+}
+.lista li:nth-child(3)::after {
+  content: "📗 ";
+}
+.lista li:nth-child(4)::after {
+  content: "📘 ";
+}
+.lista li:nth-child(5)::after {
+  content: "📙 ";
+}
+.lista li:nth-child(6)::after {
+  content: "📚 ";
+}
+li:lang(en) {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+/* lista 2*/
+
+#provincias li {
+  list-style: lower-roman;
+}
+
+#provincias .decoration {
+  list-style-type: none;
+}

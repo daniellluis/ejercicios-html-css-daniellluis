@@ -1,0 +1,31 @@
+form {
+  margin: 0 auto;
+  max-width: 800px;
+  min-width: 400px;
+}
+
+.name,
+.email {
+  border-color: red;
+}
+
+div {
+  background-color: rgb(187, 187, 187);
+  padding: 1rem;
+  margin: 5px;
+}
+
+div:hover {
+  background-color: rgba(136, 131, 131, 0.932);
+}
+
+.primero,
+.ultimo {
+  border-bottom: 5px solid black;
+}
+
+.boton {
+  background-color: black;
+  color: white;
+  border: none;
+}

@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(248, 173, 33);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+body h1 {
+  color: white;
+  font-size: 100px;
+  padding: 30px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.contenido {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 1px 12px 0px rgba(50, 50, 50, 0.75);
+  background-color: rgb(86, 21, 139);
+  opacity: 0;
+  transition: 1s;
+}
+
+.contenido:hover {
+  transform: scale(1.1);
+  transition: all 1s ease-out;
+}
+
+.imagen-li {
+  background-color: white;
+  padding: 20px;
+}
+.imagen-li h2 {
+  padding: 10px;
+  font-size: 22px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  display: flex;
+  border-radius: 100%;
+  background-color: grey;
+  color: white;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+}
+
+img {
+  width: 50%;
+  border-radius: 100%;
+}
+
+.violeta {
+  font-weight: 200;
+  padding: 20px;
+  color: white;
+}
+.opacity {
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: opacity;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.opacity1 {
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-name: opacity;
+  animation-fill-mode: forwards;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.opacity2 {
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  animation-name: opacity;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.opacity3 {
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+  animation-name: opacity;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}

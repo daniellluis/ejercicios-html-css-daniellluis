@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 40px 20px 80px 20px;
+}
+
+header h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+header h2 {
+  font-size: 40px;
+  font-weight: 300;
+  padding-top: 9px;
+}
+header p {
+  font-size: 18px;
+  font-weight: 200;
+  padding-top: 15px;
+}
+
+/* ________*/
+
+main {
+  padding: 30px;
+}
+main img {
+  width: 100%;
+}
+main h1 {
+  font-size: 26px;
+  color: rgb(131, 127, 127);
+  border-bottom: 1px solid rgb(34, 34, 34);
+  padding-bottom: 9px;
+  margin-bottom: 15px;
+}
+main p {
+  margin-top: 20px;
+  color: rgb(105, 104, 104);
+}
+
+/* ----------------- */
+
+footer {
+  padding: 0 30px 10px 30px;
+}
+
+footer h1 {
+  font-size: 35px;
+  color: rgb(131, 127, 127);
+  font-weight: 500;
+  border-bottom: 2px solid rgb(131, 127, 127);
+  margin-bottom: 5px;
+}
+
+form fieldset {
+  border: none;
+}
+
+form input,
+textarea {
+  width: 100%;
+  background-color: rgb(131, 127, 127);
+  border: none;
+}
+form input {
+  height: 35px;
+}
+
+label .boton {
+  width: 20%;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+}
+
+form legend {
+  padding: 5px 0 5px 0;
+}
+
+@media (min-width: 700px) {
+  header {
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 110px;
+  }
+  .contenedor {
+    display: flex;
+  }
+
+  main p {
+    order: -1;
+  }
+
+  main .imagen {
+    width: 50%;
+    padding-left: 15px;
+  }
+
+  main,
+  footer {
+    margin: 0 auto;
+    max-width: 900px;
+  }
+}

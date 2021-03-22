@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ejercicio HTML 1</title>
+  </head>
+
+  <body>
+    <form method="GET" action="">
+      <div class="primero">
+        <label for="name"
+          >*Nombre
+          <input
+            class="name"
+            id="name"
+            type="text"
+            name="Nombre"
+            placeholder="name"
+            required
+            autofocus
+          />
+        </label>
+      </div>
+
+      <div>
+        <label for="email"
+          >*Email
+          <input
+            class="email"
+            id="email"
+            type="email"
+            name="email"
+            placeholder="email"
+            required
+          />
+        </label>
+      </div>
+
+      <div>
+        <label for="url"
+          >Url
+          <input
+            id="url"
+            type="text"
+            name="url"
+            placeholder="Escribe Url Pagina Personal"
+          />
+        </label>
+      </div>
+
+      <div>
+        <label for="date"
+          >*date
+          <input id="date" type="date" name="date" />
+        </label>
+      </div>
+
+      <div>
+        <label for="time"
+          >*Time
+          <input id="time" type="time" name="time" />
+        </label>
+      </div>
+
+      <div>
+        <label for="date"
+          >*Fecha y Hora
+          <input id="date" type="datetime-local" name="fecha-hora" />
+        </label>
+      </div>
+
+      <div>
+        <label for="month"
+          >*Mes
+          <input id="month" type="month" name="Mes" />
+        </label>
+      </div>
+
+      <div>
+        <label for="week"
+          >*Semana
+          <input id="week" type="week" name="Semana" />
+        </label>
+      </div>
+
+      <div>
+        <label for="number"
+          >*Numero
+          <input id="number" type="number" name="numero" min="-10" max="10" />
+        </label>
+      </div>
+
+      <div>
+        <label for="phone"
+          >*Telefono
+          <input
+            id="phone"
+            type="tel"
+            name="Telefono"
+            value="666444555"
+            readonly
+          />
+        </label>
+      </div>
+
+      <div>
+        <label for="search"
+          >*Término de búsqueda
+          <input id="search" type="search" name="search" disabled />
+        </label>
+      </div>
+      <div>
+        <label for="colores"></label>*Mi color favorito
+        <select id="colores">
+          <option>verde</option>
+          <option>rojo</option>
+          <option>amarillo</option>
+          <option>purpura</option>
+        </select>
+      </div>
+
+      <div class="ultimo">
+        <legend>*Enviar</legend>
+        <input class="boton" type="submit" value="submit" />
+      </div>
+    </form>
+  </body>
+</html>

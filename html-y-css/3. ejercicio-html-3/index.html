@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ejercicio HTML 1</title>
+  </head>
+
+  <body>
+    <form method="GET" action="">
+      <fieldset class="primero">
+        <legend>*Datos Personales</legend>
+        <label for="name"
+          >*Name
+          <input
+            class="name"
+            id="name"
+            type="text"
+            name="Nombre"
+            placeholder="name"
+            required
+            autofocus
+          />
+        </label>
+
+        <label for="email"
+          >*Email
+          <input
+            class="email"
+            id="email"
+            type="email"
+            name="email"
+            placeholder="email"
+            required
+          />
+        </label>
+
+        <label for="url"
+          >* Url
+          <input
+            id="url"
+            type="text"
+            name="url"
+            placeholder="Escribe Url Pagina Personal"
+          />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>*Date</legend>
+        <label for="date"
+          >*Date
+          <input id="date" type="date" name="date" />
+        </label>
+
+        <label for="time"
+          >*Time
+          <input id="time" type="time" name="time" />
+        </label>
+
+        <label for="date"
+          >*Fecha y Hora
+          <input id="date" type="datetime-local" name="fecha-hora" />
+        </label>
+
+        <label for="month"
+          >*Mes
+          <input id="month" type="month" name="Mes" />
+        </label>
+
+        <label for="week"
+          >*Semana
+          <input id="week" type="week" name="Semana" />
+        </label>
+
+        <label for="number"
+          >*Numero
+          <input id="number" type="number" name="numero" min="-10" max="10" />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>*Terminos - datos - Color - enviar</legend>
+        <label for="phone"
+          >*Telefono
+          <input
+            id="phone"
+            type="tel"
+            name="Telefono"
+            value="666444555"
+            readonly
+          />
+        </label>
+
+        <label for="search"
+          >*Término de búsqueda
+          <input id="search" type="search" name="search" disabled />
+        </label>
+
+        <label for="colores"></label>*Mi color favorito
+        <select id="colores">
+          <option>verde</option>
+          <option>rojo</option>
+          <option>amarillo</option>
+          <option>purpura</option>
+        </select>
+
+        <input class="boton" type="submit" value="submit" />*Enviar
+      </fieldset>
+    </form>
+  </body>
+</html>
